@@ -1,8 +1,9 @@
 'use strict';
 
-const _ = require('../lodash-mask.js');
+const _ = require('lodash');
 const assert = require('chai').assert;
 
+require('../lodash-mask.js');
 
 describe('String', function() {
   describe('#ASCII', function() {
